@@ -1,0 +1,16 @@
+.gradle/
+**/build/
+.idea/
+*.iml
+local.properties
+*.jks
+*.keystore
+*.pem
+.env
+.env.*
+node_modules/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+server/data/
+.DS_Store

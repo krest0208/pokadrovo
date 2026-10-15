@@ -1,0 +1,12 @@
+{
+  "name":"pokadrovo-api",
+  "version":"0.1.0-restored",
+  "private":true,
+  "type":"module",
+  "engines":{"node":">=22.13"},
+  "scripts":{
+    "start":"node --experimental-sqlite index.mjs",
+    "test":"node --experimental-sqlite --test test/*.test.mjs",
+    "bootstrap-admin":"node --experimental-sqlite admin.mjs"
+  }
+}
